@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import { Link as ScrollLink } from "react-scroll"; // For smooth scrolling
+import { Link as ScrollLink } from "react-scroll";
 
 export function NavbarDemo() {
   return (
@@ -29,7 +29,17 @@ function Navbar({ className }) {
           Home
         </ScrollLink>
 
-        {/* Project Link (Smooth Scroll) */}
+        {/* Skill Link */}
+        <ScrollLink
+          to="skills"
+          smooth={true}
+          duration={500}
+          className="text-black dark:text-white cursor-pointer"
+        >
+          Skills
+        </ScrollLink>
+
+        {/* Project Link */}
         <ScrollLink
           to="project"
           smooth={true}
