@@ -15,7 +15,7 @@ const SkillsSection = () => {
 
   return (
     <section id="skills" className="p-8 bg-light-mode dark:bg-dark-mode">
-      <h2 className="text-3xl font-bold text-center mb-8 text-dark-mode dark:text-light-mode">
+      <h2 className="text-4xl font-bold text-center mb-8 text-dark-mode dark:text-light-mode">
         Skills
       </h2>
       <div className="max-w-2xl mx-auto">
