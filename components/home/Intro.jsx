@@ -12,7 +12,7 @@ const Intro = () => {
         </div>
         <div className="text-center z-0">
           <h1
-            className="text-8xl md:text-9xl lg:text-10xl font-bold italic tracking-tight text-black dark:text-light-mode"
+            className="text-8xl md:text-9xl lg:text-10xl font-bold italic tracking-tight text-blue-800 dark:text-blue-500"
             style={{
               textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
               fontFamily: 'system-ui',
