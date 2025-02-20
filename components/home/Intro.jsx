@@ -7,7 +7,7 @@ const Intro = () => {
       <div>
         <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/4 z-10">
           <div className="animate-spin-slow">
-            <Image src="/DarrellChuaLogo.png" alt="Logo" width={250} height={250} />
+            <Image src="/DarrellChuaLogo.png" alt="Logo" width={200} height={200} />
           </div>
         </div>
         <div className="text-center z-0">
