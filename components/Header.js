@@ -21,7 +21,7 @@ function Navbar({ className }) {
       <Menu setActive={setActive}>
         {/* Home Link */}
         <ScrollLink
-          to="about-me"
+          to="intro"
           smooth={true}
           duration={500}
           className="text-black dark:text-white cursor-pointer"

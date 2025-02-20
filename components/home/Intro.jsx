@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Intro = () => {
   return (
-    <section id="intro" className="min-h-screen flex flex-col items-center justify-center relative">
+    <main id="intro" className="min-h-screen flex flex-col items-center justify-center relative">
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
         <div className="animate-spin-slow">
           <Image src="/DarrellChuaLogo.png" alt="Logo" width={250} height={250} />
@@ -21,7 +21,7 @@ const Intro = () => {
           DARRELL CHUA
         </h1>
       </div>
-    </section>
+    </main>
   );
 };
 

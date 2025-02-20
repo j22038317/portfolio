@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const AboutMe = () => {
   return (
-    <section id="about-me" className="min-h-screen flex flex-col md:flex-row items-center justify-center bg-[#9ba8ab] text-white">
+    <main id="about-me" className="min-h-screen flex flex-col md:flex-row items-center justify-center bg-[#9ba8ab] text-white">
       <div className="p-10 order-1 md:order-none">
         <Image src="/Profile.png" alt="Profile" width={250} height={250} />
       </div>
@@ -13,7 +13,7 @@ const AboutMe = () => {
           Hi, I'm Darrell CHUA. I'm a passionate developer who loves building web applications.
         </p>
       </div>
-    </section>
+    </main>
   );
 };
 
