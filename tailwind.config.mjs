@@ -10,7 +10,13 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "light-mode": "#f7f7f7",
+        "dark-mode": "#161616",
+        "custom": "#690b22"
       },
+      animation:{
+        'spin-slow': 'spin 7s linear infinite',
+      }
     },
   },
   plugins: [],
