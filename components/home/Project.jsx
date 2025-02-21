@@ -7,6 +7,7 @@ const Project = () => {
         <h1 className="text-4xl font-bold">Project</h1>
       </div>
       <div>
+        
       </div>
     </main>
   );
