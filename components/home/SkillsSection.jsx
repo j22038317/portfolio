@@ -14,7 +14,7 @@ const SkillsSection = () => {
   ];
 
   return (
-    <section id="skills" className="p-8 bg-light-mode dark:bg-dark-mode">
+    <section id="skills" className="min-h-screen bg-light-mode dark:bg-dark-mode">
       <h2 className="text-4xl font-bold text-center mb-8 text-dark-mode dark:text-light-mode">
         Skills
       </h2>
