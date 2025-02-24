@@ -28,7 +28,7 @@ const AboutMe = () => {
           <a
             href="/Darrell Chua Resume.pdf"
             download="Darrell_Chua_Resume.pdf"
-            className="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-950 transition duration-300"
+            className="inline-block bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-950 transition duration-300"
           >
             My Résumé
           </a>
