@@ -22,7 +22,7 @@ const Project = () => {
             <h3 className="text-lg font-bold">{project.title}</h3>
             <p className="text-sm text-justify">{project.description}</p>
             <a href={project.github} target="_blank" rel="noopener noreferrer">
-              <button className="mt-4 border-2 border-blue-600 text-blue-600 px-4 py-2 rounded-full transition-all duration-300 hover:bg-blue-600 hover:text-light-mode">GitHub</button>
+              <button className="mt-4 inline-block bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-950 transition duration-300">GitHub</button>
             </a>
             </motion.div>
         ))}
